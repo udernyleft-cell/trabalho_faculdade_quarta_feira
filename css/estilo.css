@@ -1,0 +1,75 @@
+/* PDF 8: Seletor de Tag para definir o estilo geral da página */
+body {
+    /* PDF 8: Propriedade de cor de fundo e cor do texto */
+    background-color: #f4f4f4;
+    color: #333333;
+    /* PDF 3: Definindo a fonte padrão (Arial) conforme slide de fontes */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+/* PDF 8: Seletor de ID (#) para o cabeçalho do site */
+#cabecalho {
+    background-color: #003366;
+    color: #ffffff;
+    /* PDF 8: Propriedade de borda e alinhamento */
+    border: 2px solid #000000;
+    text-align: center;
+    padding: 15px;
+}
+
+/* PDF 8: Seletor de ID para a barra de navegação */
+#navegacao {
+    background-color: #cccccc;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 1px solid #666666;
+}
+
+/* PDF 8: Estilizando os links dentro da div de navegação */
+#navegacao a {
+    /* Aula 4: Referência a links */
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+/* PDF 8: Seletor de ID para a área de conteúdo principal */
+#conteudo {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+/* Aula 6: Estilizando as tabelas do bar */
+table {
+    /* Aula 6: Definindo largura e bordas da tabela */
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Aula 6: Estilizando as células da tabela (td) e cabeçalhos (th) */
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+/* PDF 7: Estilizando elementos do formulário */
+input[type="text"], textarea {
+    /* PDF 7: Atributos de controle de formulário */
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #999999;
+}
+
+input[type="submit"] {
+    background-color: #003366;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
