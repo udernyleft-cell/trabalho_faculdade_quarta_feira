@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Bar do Renato - Contato</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+    <div id="navegacao">
+        <a href="index.html">Voltar para Home</a>
+    </div>
+
+    <h2>Faça sua Reserva</h2>
+
+    <form action="enviar.php" method="post">
+        Nome:<br>
+        <input type="text" name="nome" placeholder="Digite seu nome completo" size="40"><br><br>
+
+        Área do Bar:<br>
+        <input type="radio" name="area" value="interno" checked> Interno
+        <input type="radio" name="area" value="externo"> Externo (Fumantes)<br><br>
+
+        Observações:<br>
+        <textarea name="msg" rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Enviar Reserva">
+        <input type="reset" value="Limpar Campos">
+    </form>
+</body>
+</html>
